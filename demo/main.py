@@ -20,7 +20,8 @@ def main():
 
     n = x1w1x2xw2 + b
 
-    o = n.tanh()
+    e = (2*n).exp()
+    o = (e - 1) / (e + 1)
 
     o.backward()
 
