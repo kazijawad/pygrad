@@ -103,7 +103,7 @@ class Scalar:
         ordered = []
         visited = set()
 
-        # Topological sort.
+        # Topological Sort
         def sort(v):
             if v not in visited:
                 visited.add(v)
